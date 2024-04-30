@@ -130,6 +130,7 @@ router.post("/refreshToken", async (req, res, next) => {
   }
 });
 
+// main sso entry point for any application
 router.get("/sso/layout", (req, res) => {
   const htmlContent = `<!DOCTYPE html>
 <html lang="en">
@@ -169,4 +170,13 @@ router.get("/sso/layout", (req, res) => {
   res.send(htmlContent);
 });
 
+router.get("/sso/app/:id", (req, res) => {
+  // get the layout for continue with
+  // single sign in
+});
+
+// register new app for SSO
+router.post("/sso/app", (req, res) => {
+  // return a app-id and secret-key
+});
 module.exports = router;
