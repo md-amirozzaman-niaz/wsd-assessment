@@ -68,3 +68,7 @@ npm i
 ```sh
 npm start
 ```
+
+### Test
+
+Navigate to `backend` and run `npm run test`
