@@ -2,7 +2,7 @@
 
 ### SSO Authentication Auth Service Provider
 
-Please navigate to `auth-serivce` folder from command line
+Please navigate to `auth-service` folder from command line
 
 Run Command
 
@@ -10,7 +10,7 @@ Run Command
 npm i
 ```
 
-edit `.env.local` to `.env`
+create `.env` file in the root. And copy `.env.local` to `.env`
 Run Command
 
 ```sh
@@ -27,7 +27,7 @@ Run Command
 npm i
 ```
 
-edit `.env.local` to `.env`
+create `.env` file in the root. And copy `.env.local` to `.env`
 
 Run Command
 
