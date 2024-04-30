@@ -10,7 +10,13 @@ Run Command
 npm i
 ```
 
-create `.env` file in the root. And copy `.env.local` to `.env`
+Run this command
+
+```sh
+touch .env && cat .env.local > .env
+```
+
+Or manually create `.env` file in the root. And copy `.env.local` to `.env`
 Run Command
 
 ```sh
@@ -31,7 +37,13 @@ Run Command
 npm i
 ```
 
-create `.env` file in the root. And copy `.env.local` to `.env`
+Run this command
+
+```sh
+touch .env && cat .env.local > .env
+```
+
+Or manually create `.env` file in the root. And copy `.env.local` to `.env`
 
 Run Command
 
