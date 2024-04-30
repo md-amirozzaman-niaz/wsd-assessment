@@ -25,7 +25,8 @@ npm run dev
 
 > This is for just demonstration purpose.
 > Not implemented any database for data persist.
-> Here `JWT_SECRET` use a random string
+> Here `JWT_SECRET` use a random string.
+> No validation added for `email` and `password` matching.
 
 ### Backend with Typescript and Express
 
