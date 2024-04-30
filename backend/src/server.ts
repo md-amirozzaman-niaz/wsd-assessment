@@ -15,7 +15,9 @@ const corsOptions = {
 app.use(cors(corsOptions));
 app.use(express.json());
 app.get("/", (req: Request, res: Response) => {
-  res.send("Express + TypeScript Server");
+  res.json({
+    message: "Express + TypeScript Server: 🦄🌈✨👋🌎🌍🌏✨🌈🦄",
+  });
 });
 app.use("/api", apiRouter);
 app.use(errorHandler);
