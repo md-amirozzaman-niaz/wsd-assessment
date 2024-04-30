@@ -36,17 +36,5 @@ router.get("/sso/layout", (req: Request, res: Response) => {
   // get the layout for continue with
   // single sign in
 });
-router.post("/sso/verify", (req: Request, res: Response) => {
-  // verify
-  // true return authorization scopes to use user data
-});
 
-router.get("/sso/app", (req: Request, res: Response) => {
-  // get the layout for continue with
-  // single sign in
-});
-
-router.post("/sso/app", (req: Request, res: Response) => {
-  // return a app-id and secret-key
-});
 export default router;
