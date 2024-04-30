@@ -39,6 +39,9 @@ Run Command
 npm run dev
 ```
 
+> Frontend must run on `localhost:3000`.
+> This host has been white listed for `cors` in backend server.
+
 ### Frontend with React
 
 Please navigate to `frontend` folder from command line.
