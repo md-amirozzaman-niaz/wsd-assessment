@@ -17,6 +17,10 @@ Run Command
 npm run dev
 ```
 
+> This is for just demonstration purpose
+> Not implemented any database for data persist
+> JWT secret here use a random string
+
 ### Backend with Typescript and Express
 
 Please navigate to `backend` folder from command line
