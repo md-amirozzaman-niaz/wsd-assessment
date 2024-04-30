@@ -4,11 +4,11 @@ import { isAuthenticated } from "../middleware";
 
 // New Router instance
 const router: Router = express.Router();
-router.use(isAuthenticated);
+// router.use(isAuthenticated);
 // text analyzer routes
 router.get("/count/word", (req: Request, res: Response) => {
-  const count = textAnalyzer.wordCount(req.query.text);
-  res.send({ count });
+  const output = textAnalyzer.wordCount(req.query.text);
+  res.send({ output });
 });
 
 router.get("/count/char", (req: Request, res: Response) => {
