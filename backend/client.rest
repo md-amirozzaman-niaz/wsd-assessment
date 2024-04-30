@@ -1,0 +1,54 @@
+
+### word count
+GET http://localhost:4000/api/count/word
+?text="The quick brown fox jumps over the lazy dog. The lazy dog slept in the sun."
+
+### char count
+
+GET http://localhost:4000/api/count/char
+?text="The quick brown fox jumps over the lazy dog. The lazy dog slept in the sun."
+### sentence count
+POST http://localhost:4000/api/count/sentence
+content-type: application/json
+
+{
+    "text": "This is a multiline text.\nIt spans across multiple lines.\nEach line is separated by a newline character."
+}
+
+### sentence count
+POST http://localhost:4000/api/count/sentence
+content-type: application/json
+
+{
+    "text": ""
+}
+### paragraph count
+POST http://localhost:4000/api/count/para
+content-type: application/json
+
+{
+    "text": "This is the first paragraph.\n\nThis is the second paragraph.\n\nAnd here is the third paragraph."
+}
+
+### paragraph count
+POST http://localhost:4000/api/count/para
+content-type: application/json
+
+{
+    "text": ""
+}
+### longest word
+POST http://localhost:4000/api/longest/word
+content-type: application/json
+
+{
+    "text": "The quick brown fox jumps over the lazy dog. The lazy dog slept in the sun."
+}
+
+### paragraph count
+POST http://localhost:4000/api/text
+content-type: application/json
+
+{
+    "text": "This is the first paragraph.\n\nThis is the second paragraph.\n\nAnd here is the third paragraph."
+}
