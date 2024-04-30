@@ -17,9 +17,9 @@ Run Command
 npm run dev
 ```
 
-> This is for just demonstration purpose
-> Not implemented any database for data persist
-> JWT secret here use a random string
+> This is for just demonstration purpose.
+> Not implemented any database for data persist.
+> Here `JWT_SECRET` use a random string
 
 ### Backend with Typescript and Express
 
